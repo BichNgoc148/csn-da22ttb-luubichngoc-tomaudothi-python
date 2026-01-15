@@ -155,7 +155,7 @@ main.pack(fill=tk.BOTH, expand=True)
 
 #BÊN TRÁI
 left = tk.Frame(main, bg="white")
-left.pack(side=tk.LEFT, padx=10)
+left.pack(side=tk.LEFT, padx=40, pady=10)
 
 fig, ax = plt.subplots(figsize=(6, 4))
 ax.axis("off")
